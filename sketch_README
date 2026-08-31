@@ -1,0 +1,83 @@
+README: Arduino Sketch Setup for Aimbot Configuration and Control
+
+•••••••• ⚠️ Warning••••••••
+This Arduino sketch is part of an educational project for studying input emulation and serial communication. It is not intended for cheating in online games. Use only in offline or test environments.
+
+🧰 Compatibility
+Works with Arduino boards that support USB mouse emulation: Leonardo, Micro, Due, Zero, etc.
+Not compatible with boards that do not support native mouse emulation.
+
+⚙️ Installation and Upload Instructions
+
+	○ Open the Arduino IDE and create a new sketch.
+	○ Paste the code into the editor.
+	○ Select the board:
+	○ Tools → Board → Arduino Leonardo (or your specific board).
+	○ Select the port:
+	○ Tools → Port → choose the COM port to which the Arduino board is connected (e.g., COM3, COM6).
+	○ If the port is not visible, reinstall the drivers or check the USB cable.
+	○ Click the Upload button (the right‑pointing arrow).
+	○ Wait until the message “Done uploading” appears in the bottom panel.
+-------------------------------------------------------------
+
+⚙️ Installation and Upload Instructions
+
+1)Open the Arduino IDE and create a new sketch.
+
+2)Paste the code into the editor.
+
+3)Select the board:
+
+4)Tools → Board → Arduino Leonardo (or your specific board).
+
+5)Select the port:
+
+6)Tools → Port → choose the COM port to which the Arduino board is connected (e.g., COM3, COM6).
+
+7)If the port is not visible, reinstall the drivers or check the USB cable.
+
+8)Click the Upload button (the right‑pointing arrow).
+
+9)Wait until the message “Done uploading” appears in the bottom panel.
+
+-------------------------------------------------------------
+
+🔌 Connection and Configuration
+
+Python Side (aimbot.py)
+In the configuration/GUI of the Python script:
+
+1)arduino_port: Set to the same COM port as in the Arduino IDE (e.g., COM3).
+2)baud_rate: Must match the sketch setting: 115200.
+3)input_mode: Set to arduino.
+
+Example configuration snippet:
+
+
+
+
+_____________________________
+{
+  "arduino_port": "COM3",
+  "baud_rate": 115200,
+  "input_mode": "arduino"
+}
+_____________________________
+
+
+	✅ Verification Checklist
+	
+	○ Board is Leonardo/Micro/etc. (supports Mouse.h).
+	○ The sketch compiles and uploads without errors.
+	○ COM port in the Python script matches the one in the Arduino IDE.
+	○ Baud rate is the same on both sides (115200).
+	○ Python script is run as Administrator.
+	○ Game is running in Borderless Windowed mode (to avoid capture/input issues).
+	○ No other program is using the same COM port.
+
+_____________________________
+	
+	•••••••• 🛠️ Important Notes ••••••••
+
+Test first in a safe environment (e.g., using a mouse test application or in an offline single‑player game).
+
