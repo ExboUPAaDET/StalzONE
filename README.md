@@ -18,6 +18,9 @@ Aimbot Config & Control is a dual-mode Python tool for automating cursor aiming.
 #Maus P (Software): Software emulation of movements and clicks via Windows API.
 #Graphical Interface (Tkinter): Parameter configuration, system indicator monitoring, and a built-in terminal for logs.
 
+<img width="645" height="366" alt="222802" src="https://github.com/user-attachments/assets/15928d23-64e1-4814-82a4-5daf3bbabd75" />
+
+
 📦 Installation and Launch (Development Mode .py)
 This method is suitable if you plan to edit the code.
 
