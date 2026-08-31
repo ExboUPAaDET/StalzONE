@@ -12,10 +12,15 @@ Aimbot Config & Control is a dual-mode Python tool for automating cursor aiming.
 <img width="736" height="390" alt="221308" src="https://github.com/user-attachments/assets/96e8e6c4-83e7-4080-b7f0-ed4e8daf53cf" />
 
 #Computer Vision (OpenCV): Real-time object detection by color (HSV filtering).
+
 #Screen Capture (MSS): High-performance screenshot of a specific monitor area.
+
 #Two Output Modes:
+
 #Arduino: Transmits cursor offsets to a microcontroller for hardware-based mouse control.
+
 #Maus P (Software): Software emulation of movements and clicks via Windows API.
+
 #Graphical Interface (Tkinter): Parameter configuration, system indicator monitoring, and a built-in terminal for logs.
 
 <img width="645" height="366" alt="222802" src="https://github.com/user-attachments/assets/15928d23-64e1-4814-82a4-5daf3bbabd75" />
