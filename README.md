@@ -112,4 +112,4 @@ Object is not detected	HSV parameters are incorrect. Try increasing min_area or 
 
 "📜 License"
 
-This project is an educational example. The code is provided "as is" without warranty.
+This project is an educational example. The code is provided "as is" without warranty. !!!
